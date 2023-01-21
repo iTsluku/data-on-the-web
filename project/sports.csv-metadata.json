@@ -1,0 +1,108 @@
+{
+    "@id": "https://cu.opendata.cz/course-data-on-the-web/resource/sports",
+    "@context": [
+        "https://raw.githubusercontent.com/CLARIAH/COW/master/csvw.json",
+        {
+            "@language": "en",
+            "@base": "https://cu.opendata.cz/course-data-on-the-web/resource/events/sports/"
+        },
+        {
+            "dc": "http://purl.org/dc/terms/",
+            "sv": "https://cu.opendata.cz/course-data-on-the-web/vocabulary/sports#",
+            "s": "https://schema.org/"
+        }
+    ],
+    "dialect": {
+        "delimiter": ",",
+        "encoding": "UTF-8",
+        "quoteChar": "\""
+    },
+    "url": "sports.csv",
+    "tableSchema": {
+        "aboutUrl": "{id}",
+        "primaryKey": "id",
+        "columns": [
+            {
+                "name": "id",
+                "titles": {
+                    "en": "id"
+                },
+                "dc:description": {
+                    "en": "The unique event code."
+                },
+                "datatype": "integer",
+                "required": true
+            },
+            {
+                "name": "city",
+                "titles": {
+                    "en": "city"
+                },
+                "dc:description": {
+                    "en": "The unique city code."
+                },
+                "datatype": "integer",
+                "required": true
+            },
+            {
+                "name": "event_title",
+                "titles": {
+                    "en": "event_title"
+                },
+                "dc:description": {
+                    "en": "Title of the sport event."
+                },
+                "datatype": "string",
+                "propertyUrl": "s:title",
+                "required": true
+            },
+            {
+                "name": "event_type",
+                "titles": {
+                    "en": "event_type"
+                },
+                "dc:description": {
+                    "en": "Sport type which is primarily assigned to the event."
+                },
+                "datatype": "string",
+                "propertyUrl": "s:about",
+                "required": true
+            },
+            {
+                "name": "event_location",
+                "titles": {
+                    "en": "event_location"
+                },
+                "dc:description": {
+                    "en": "Location where the event takes place."
+                },
+                "datatype": "string",
+                "propertyUrl": "s:location",
+                "required": true
+            },
+            {
+                "name": "event_start_date",
+                "titles": {
+                    "en": "event_start_date"
+                },
+                "dc:description": {
+                    "en": "Date specifiying when the event starts."
+                },
+                "datatype": "date",
+                "propertyUrl": "s:startDate",
+                "required": true
+            },
+            {
+                "name": "event_day_duration",
+                "titles": {
+                    "en": "event_day_duration"
+                },
+                "dc:description": {
+                    "en": "Number of days the event takes place."
+                },
+                "datatype": "integer",
+                "required": true
+            }
+        ]
+    }
+}

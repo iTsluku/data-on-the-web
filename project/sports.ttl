@@ -1,0 +1,39 @@
+@prefix ns0: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ns1: <https://cu.opendata.cz/course-data-on-the-web/resource/events/sports/vocab/> .
+
+<https://cu.opendata.cz/course-data-on-the-web/resource/events/sports/4>
+  ns0:title "Boulderworld Munich West"^^xsd:string ;
+  ns0:startDate "2022-11-18"^^xsd:date ;
+  ns1:city 1 ;
+  ns0:location "Munich"^^xsd:string ;
+  ns1:event_day_duration 1 ;
+  ns1:id 4 ;
+  ns0:about "Bouldering"^^xsd:string .
+
+<https://cu.opendata.cz/course-data-on-the-web/resource/events/sports/1>
+  ns1:city 2 ;
+  ns0:location "Passau"^^xsd:string ;
+  ns0:about "Rowing"^^xsd:string ;
+  ns1:event_day_duration 1 ;
+  ns0:startDate "2022-07-07"^^xsd:date ;
+  ns0:title "Dragon boat race 2022"^^xsd:string ;
+  ns1:id 1 .
+
+<https://cu.opendata.cz/course-data-on-the-web/resource/events/sports/2>
+  ns1:city 1 ;
+  ns0:title "ISPO Munich 2022"^^xsd:string ;
+  ns0:about "Trade Fair"^^xsd:string ;
+  ns1:id 2 ;
+  ns0:startDate "2022-11-28"^^xsd:date ;
+  ns0:location "Munich"^^xsd:string ;
+  ns1:event_day_duration 3 .
+
+<https://cu.opendata.cz/course-data-on-the-web/resource/events/sports/3>
+  ns0:startDate " 2022-11-23"^^xsd:date ;
+  ns0:location " Passau"^^xsd:string ;
+  ns1:city 2 ;
+  ns1:event_day_duration 1 ;
+  ns1:id 3 ;
+  ns0:title "Public Viewing WM 2022"^^xsd:string ;
+  ns0:about " Football"^^xsd:string .

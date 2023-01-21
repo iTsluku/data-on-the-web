@@ -1,0 +1,30 @@
+@startuml
+
+    class Type{
+        id
+    }
+
+    class Club{
+        name
+        type
+    }
+
+    class Event{
+        title
+    }
+
+    class Location{
+        city
+    }
+
+    class Date{
+        timeDate
+    }
+
+
+    Event "0..*" --> "0..*" Club
+    Event "0..*" --> "1" Date
+    Event "0..*" --> "0..*" Location
+    Event "0..*" --> "1" Type
+
+@enduml

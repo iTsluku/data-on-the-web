@@ -1,0 +1,56 @@
+[
+    {
+        "ID": 1,
+        "location": {
+            "city": {
+                "ID": 3,
+                "name": "Regensburg"
+            },
+            "postcode": 93053,
+            "street": "Franz-Josef-Strauß-Allee",
+            "street_number": 22
+        },
+        "date": {
+            "date": "2022-09-16",
+            "dateTime_start": "2022-09-16T09:00:00"
+        },
+        "title": "RedCon 2022",
+        "type": "football",
+        "description": "RedCon is Europe's largest professional development event for football coaches and is already taking place for the 3rd time. With our format we strengthen the teams behind the teams. For an even better structure, knowledge exchange and discussions at the highest level."
+    },
+    {
+        "ID": 2,
+        "location": {
+            "city": {
+                "ID": 4,
+                "name": "Berlin"
+            },
+            "postcode": 15366,
+            "street": "Rennbahnallee"
+        },
+        "date": {
+            "date": "2023-04-09",
+            "dateTime_start": "2023-04-09T10:30:00"
+        },
+        "title": "Horse racing in Hoppegarten 2023",
+        "type": "horse_racing",
+        "description": "Horse racing in Hoppegarten means: fast thoroughbreds, pure betting fun and excitement and in addition simply a great day in the green!"
+    },
+    {
+        "ID": 3,
+        "location": {
+            "city": {
+                "ID": 4,
+                "name": "Berlin"
+            },
+            "postcode": 14053,
+            "street": "Olympischer Platz",
+            "street_number": 3
+        },
+        "date": {
+            "date": "2022-11-05"
+        },
+        "title": "Bundesliga 2022/2023 - 13. Spieltag - Herta vs. Bayern",
+        "type": "soccer"
+    }
+]
